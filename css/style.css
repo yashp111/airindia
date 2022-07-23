@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-nav a {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: grey;
+  font-size: 10pt;
+}
+
+.top-nav h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-nav .select-top-free-number {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 40px;
+}
+
+.top-nav .search-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 20px;
+}
+
+.top-nav-second {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 75%;
+      grid-template-columns: 25% 75%;
+}
+
+.top-nav-second .logo img {
+  padding: 10px;
+  border-right: 1px solid #dddbdb;
+}
+
+.top-nav-second .login-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.top-nav-second .login-area .user-icon, .top-nav-second .login-area a {
+  color: rgba(201, 8, 8, 0.726);
+  font-size: 18pt;
+}
+
+.navbar {
+  background-color: #c30505;
+}
+
+.navbar ul {
+  margin: 15px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+  width: 100%;
+  font-size: 15pt;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-shadow: -2px 2px black;
+}
+
+.navbar ul li:hover {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
